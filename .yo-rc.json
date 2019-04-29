@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "br.com.back.kerion",
+      "nativeLanguage": "pt-br"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "kerion",
+    "packageName": "br.com.back.kerion",
+    "packageFolder": "br/com/back/kerion",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mssql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NGFiMGEwNDI4NjA4NDBmNjMwN2JmODI5MWE1YWRhZWJiNjkyZjIwY2UzM2I2Yzg5NTdjY2RhNjkyMGQ5NDdjNDYzODViMWQwN2U1NmZlOWEwMjc0N2ExMmUzZjNkN2E2M2M3N2U5NTVjMWQwNzM3MjEwNTUxMGZlMjlhZTVlYTg=",
+    "testFrameworks": ["cucumber", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "0.0.5"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "pt-br",
+    "languages": ["pt-br", "zh-tw", "nl", "en", "ja", "es"],
+    "blueprint": "generator-jhipster-vuejs",
+    "blueprintVersion": "0.0.5"
+  },
+  "generator-jhipster-vuejs": {
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "kerion",
+    "clientFramework": "vue",
+    "useSass": true,
+    "clientPackageManager": "npm"
+  }
+}
